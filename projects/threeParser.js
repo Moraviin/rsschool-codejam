@@ -29,7 +29,7 @@ function recursion(tree) {
     let norm = [];
     let lvl = [];
     for (let i = 0; i <= arr.length; i++) {
-      if (i == arr.length) norm.push(lvl);
+      if (i === arr.length) norm.push(lvl);
       else {
         if (Array.isArray(arr[i]) == false) {
           lvl.push(arr[i]);
